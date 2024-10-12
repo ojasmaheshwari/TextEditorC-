@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(PkgConfig)
-pkg_check_modules(GTKMM REQUIRED gtkmm-4.0)
+pkg_check_modules(GTKMM REQUIRED gtkmm-3.0)
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCES})
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE ${GTKMM_LIBRARY_DIRS})
