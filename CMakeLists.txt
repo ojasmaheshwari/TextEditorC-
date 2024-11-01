@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 project(OjasEditor LANGUAGES CXX)
 
-set(SOURCES src/main.cpp)
+set(SOURCES src/main.cpp src/menubar.cpp)
 set(INCLUDES src/includes)
 
 set(CMAKE_BUILD_TYPE Debug)
